@@ -16,6 +16,8 @@ echo "<br>";
 
 # Para substituir partes de uma string, usamos a função str_replace()
 $texto = "O rato roeu a roupa do rei";
+$novo_texto = str_replace("rato", "gato", $texto);
+echo $novo_texto; // Saída: O gato roeu a roupa do rei.
 
 
 ?>
