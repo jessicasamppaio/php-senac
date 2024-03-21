@@ -22,4 +22,18 @@
     echo $nome ." ". $sobrenome;
     echo $nome_completo;
 
+    // Váriaveis numéricas
+    $idade = 25;
+    $ano = 2024;
+
+    echo $idade . "<br>";
+    echo $ano - $idade; // operações matematicas
+
+    echo 'Esse é um texto em aspas simples <br>';
+    echo "Esse é um texto em aspas duplas <br>";
+
+    // Trabalhando com aspas simples e duplas
+    echo 'Dom Pedro isse: "Inependencia ou Morte!" <br>';
+    echo "$nome tem $idade anos de idade <br>";
+    echo '$nome tem $idade anos de idade';
 ?>
