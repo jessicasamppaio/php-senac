@@ -33,6 +33,19 @@ echo $texto_maiusculo;
 echo "<br>";
 
 echo $texto;
+echo "<br>";
+
+# trim(): Remove espaços em branco no início e no final de uma string.
+$texto = "Olá, Mundo!";
+$texto_sem_espacos = trim($texto);
+echo $texto_sem_espacos; // Saída: Olá, Mundo!
+echo "<br>";
+
+# strpos(): Encontra a posição da primeira ocorrência de uma sbutring em uma string
+$texto = "O rato roeu a roupa do rei";
+$posicao = strpos($texto, "rato"); // Saída: 2 (posição da primeira letra da palavra "rato")
+echo $posicao;
+echo "<br>";
 
 
 
